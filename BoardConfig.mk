@@ -24,3 +24,22 @@ TARGET_OTA_ASSERT_DEVICE := odin
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/odin
 TARGET_KERNEL_CONFIG := odin_defconfig
+
+# SHRP
+SHRP_PATH := device/xiaomi/odin
+SHRP_MAINTAINER := Droneship
+SHRP_DEVICE_CODE := odin
+SHRP_REC_TYPE := Normal
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
+SHRP_DEVICE_TYPE := A/B
+SHRP_AB := true
+INC_IN_REC_MAGISK := true
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
