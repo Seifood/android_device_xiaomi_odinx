@@ -23,7 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := odin
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/odin
-TARGET_KERNEL_CONFIG := odin-qgki_defconfig
+TARGET_KERNEL_CONFIG := odin_defconfig
 
 # SHRP
 SHRP_PATH := device/xiaomi/odin
