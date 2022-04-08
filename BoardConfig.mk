@@ -23,12 +23,12 @@ TARGET_OTA_ASSERT_DEVICE := odin
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/odin
-TARGET_KERNEL_CONFIG := odin_defconfig
+TARGET_KERNEL_CONFIG := vendor/odin-qgki_defconfig
 
 # SHRP
 SHRP_PATH := device/xiaomi/odin
 SHRP_MAINTAINER := Droneship
-SHRP_DEVICE_CODE := odin
+SHRP_DEVICE_CODE := odinx
 SHRP_REC_TYPE := Normal
 SHRP_EXPRESS := true
 SHRP_EXPRESS_USE_DATA := true
