@@ -35,7 +35,6 @@ SHRP_EXPRESS_USE_DATA := true
 SHRP_DEVICE_TYPE := A/B
 SHRP_AB := true
 INC_IN_REC_MAGISK := true
-SHRP_NOTCH := true
 SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
